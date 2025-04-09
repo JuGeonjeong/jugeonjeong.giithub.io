@@ -12,9 +12,8 @@
 
 ---
 
-### 올바른코드
-
-<sub><span style="color:gray;">서버개발자 | 개발2팀</span></sub>
+<span style="font-size: 1.3rem">올바른코드</span><br/>
+<sub><span style="color:gray;">서버개발자 | 개발2팀</span></sub><br/>
 <sub><span style="color:gray;">2021.09. ~ 2024.04. (2년 8개월)</span></sub>
 
 **[주요 역할]**<br/>
@@ -50,7 +49,7 @@ REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페�
 
 ### LNC컴퍼니
 
-<sub><span style="color:gray;">대리 | 물류영업팀</span></sub>  
+<sub><span style="color:gray;">대리 | 물류영업팀</span></sub><br/>
 <sub><span style="color:gray;">2016.09. ~ 2020.11. (4년 3개월)</span></sub>
 
 거래처와 일정 조율, 신규 업장 DP, 물류 관리, 제품 관리
