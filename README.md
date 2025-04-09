@@ -16,7 +16,7 @@
 - **React.js**로 자사, 클라이언트 홈페이지 및 랜딩페이지 개발
   <br/>
 
-<div style="margin-left: 6rem">
+<div style="margin-left: 4rem">
 
   <h4>[프로젝트 1: 걸음 기부 서비스]</h4>
 
