@@ -18,10 +18,10 @@
 <sub><span style="color:gray;">2021.09. ~ 2024.04. (2년 8개월)</span></sub>
 
 **[주요 역할]**<br/>
-팀의 서버 개발자로서 REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페이지 개발 등 백엔드 전반을 담당하며, 10개 이상의 서비스 배포를 통해 다양한 비즈니스 경험을 쌓았습니다.
+REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페이지 개발 등 백엔드 전반을 담당, 10회 이상의 서비스 배포를 통해 다양한 비즈니스 경험
 
 - 팀의 서버 개발을 담당하고 기존에 없던 ERD, 시퀀스 다이어그램, 상태 다이어그램 등 **문서화 도입**
-- 기존 엑셀 기반의 체크리스트를 관리자 페이지 내 게시판으로 개발로 팀원 만족도 향상 (**타개발팀 시행**)
+- 기존 엑셀 기반의 체크리스트를 관리자 페이지 내 게시판으로 개발로 QA팀 만족도 향상 (**타개발팀 시행**)
 - **React.js**로 자사, 클라이언트 홈페이지 및 랜딩페이지 개발
 
 **[프로젝트]**<br/>
@@ -75,7 +75,7 @@
 2. **클린 아키텍처, TDD 방식으로 개발**  
    모듈 간의 구분으로 코드를 작성하여 코드 간의 결합을 최소화했습니다. 코드 변경이나 개발 시 기존 코드에 영향을 받지 않아 확장성 높았고 테스트코드를 통해 요구사항을 정의하고 성공하는 테스트를 작성 후 코드에 에러가 없음을 입증했습니다.
 
-3. **대기열을 위한 동시성 최적화: [데이터베이스 락](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/lock.report.md) · [Redis](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/redis.report.md)**  
+3. **대기열을 위한 동시성 최적화:** [데이터베이스 락](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/lock.report.md) · [Redis](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/redis.report.md) <br/>
    요구사항에 맞는 비관적락, 낙관적락을 구현했고 도메인 특성상 성능의 한계가 있었습니다. Redis 작업을 추가로 최적화 작업을 진행했습니다. Sorted set + Hash 작업으로 전환 **(처리율 50% 향상)**
 
 4. **k6를 활용해 실제 서비스와 유사한 트래픽 환경을 구성하여 테스트를 진행**  
