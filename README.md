@@ -6,6 +6,8 @@
 
 ## Work Experience
 
+---
+
 ### 올바른코드
 
 <sub><span style="color:gray;">서버개발자 | 개발2팀</span></sub>  
