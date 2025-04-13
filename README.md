@@ -62,8 +62,8 @@ REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페�
 ### 콘서트 대기열 서비스 [LINK](https://github.com/JuGeonjeong/hhp-concert)
 
 개인  
-2024.10. ~ 2025.01.  
-**nestjs, typescript, typeorm, mysql, docker, kafka, redis, jest**
+2024.10. ~ 2025.01.
+<span style="font-size: 0.9rem;">nestjs, typescript, typeorm, mysql, docker, kafka, redis, jest</span><br/>
 
 현 서비스 업체에서 중요하게 다루는 부분을 직접 경험하고자, 콘서트예매 시 발생하는 동시 접속자 관리와 대기열 처리, 그리고 티켓 예매 기능을 효과적으로 제공하는 프로젝트를 구상했습니다. 이를 위해 사용하지 못했던 기술들을 일부 도입해 서비스 운영에 대한 학습을 목표로 삼았습니다.
 
