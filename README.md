@@ -103,7 +103,6 @@ REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페�
 
 ---
 
-### 인덕대학교
-
+<span style="font-size: 1.1rem;">인덕대학교</span><br/>
 <sub><span style="color:gray;">대학교(전문학사) | 비즈니스영어과</span></sub>  
 <sub><span style="color:gray;">2018.03. ~ 2021.03. | 졸업</span></sub>
