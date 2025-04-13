@@ -95,7 +95,7 @@ REST API 설계 및 개발, AWS 기반 인프라 설계·구축, 관리자 페�
 
 ---
 
-##### Typescript, Node.js, React.js, Mysql, AWS
+<span style="font-size: 1rem;">Typescript, Node.js, React.js, Mysql, AWS</span><br/>
 
 <br/>
 
