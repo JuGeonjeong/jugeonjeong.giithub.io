@@ -8,33 +8,6 @@
 
 <!-- <br/> -->
 
-<h2 style="color:#267CB9;">프로젝트</h2>
-
----
-
-### 콘서트 대기열 서비스 [LINK](https://github.com/JuGeonjeong/hhp-concert)
-
-개인  
-2024.09. ~ 2024.12.<br/>
-<span style="font-size: 0.9rem;">nestjs, typescript, typeorm, mysql, docker, kafka, redis, jest</span><br/>
-
-백엔드 개발자로서 현 능력을 인지하고 평가받고자 진행했습니다.<br/>
-매주 현업에 종사하는 시니어 코치님들과 과제 결과를 체크하며, 수료 시 누적 통과율에 따라 배지 및 인증서를 수여합니다.
-
-1. **프로젝트 설계서 & API 문서화**  
-   프로젝트 진행 과정에서 시퀀스 다이어그램, ERD, API 명세서를 설계해 전체적인 흐름을 명확히 파악하고 예기치 않은 문제를 미리 예상하고 최소화할 수 있었습니다.
-
-2. **클린 아키텍처, TDD 방식으로 개발**  
-   모듈 간의 구분으로 코드를 작성하여 코드 간의 결합을 최소화했습니다. 코드 변경이나 개발 시 기존 코드에 영향을 받지 않아 확장성 높았고 테스트코드를 통해 요구사항을 정의하고 성공하는 테스트를 작성 후 코드에 에러가 없음을 입증했습니다.
-
-3. **대기열을 위한 동시성 최적화:** [데이터베이스 락](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/lock.report.md) · [Redis](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/redis.report.md) <br/>
-   요구사항에 맞는 비관적락, 낙관적락을 구현했고 도메인 특성상 성능의 한계가 있었습니다. Redis 작업을 추가로 최적화 작업을 진행했습니다. Sorted set + Hash 작업으로 전환 **(처리율 50% 향상)**
-
-4. **k6를 활용해 실제 서비스와 유사한 트래픽 환경을 구성하여 테스트를 진행**  
-   대기열 구현 시, 쿠키를 이용해 토큰을 내려주는 방식과 Redis의 인메모리 데이터를 활용한 최적화 전략을 비교하기 위해 [k6 모의 테스트](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/k6.test.md)를 진행했습니다. 실전과 유사하게 **점진적으로 트래픽을 증가시키며** 테스트한 결과, **안정성을 높이고 불안 요소를 효과적으로 줄일 수 있었습니다.**
-
-<br/>
-
 <h2 style="color:#267CB9;">경력</h2>
 
 ---
@@ -101,6 +74,33 @@ REST API 설계, AWS 인프라 구축, 관리자 페이지 개발 등 백엔드 
 1. 물류 입/출고 관련 인보이스 작성부터 상하차 관리
 2. 다수의 화장품, 차량제품 등의 제품 관리
 3. CJ올리브영, GS리테일, 각 면세점 미팅 참여 후 입고 스케줄 관리
+
+<br/>
+
+<h2 style="color:#267CB9;">프로젝트</h2>
+
+---
+
+### 콘서트 대기열 서비스 [LINK](https://github.com/JuGeonjeong/hhp-concert)
+
+개인  
+2024.09. ~ 2024.12.<br/>
+<span style="font-size: 0.9rem;">nestjs, typescript, typeorm, mysql, docker, kafka, redis, jest</span><br/>
+
+백엔드 개발자로서 현 능력을 인지하고 평가받고자 진행했습니다.<br/>
+매주 현업에 종사하는 시니어 코치님들과 과제 결과를 체크하며, 수료 시 누적 통과율에 따라 배지 및 인증서를 수여합니다.
+
+1. **프로젝트 설계서 & API 문서화**  
+   프로젝트 진행 과정에서 시퀀스 다이어그램, ERD, API 명세서를 설계해 전체적인 흐름을 명확히 파악하고 예기치 않은 문제를 미리 예상하고 최소화할 수 있었습니다.
+
+2. **클린 아키텍처, TDD 방식으로 개발**  
+   모듈 간의 구분으로 코드를 작성하여 코드 간의 결합을 최소화했습니다. 코드 변경이나 개발 시 기존 코드에 영향을 받지 않아 확장성 높았고 테스트코드를 통해 요구사항을 정의하고 성공하는 테스트를 작성 후 코드에 에러가 없음을 입증했습니다.
+
+3. **대기열을 위한 동시성 최적화:** [데이터베이스 락](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/lock.report.md) · [Redis](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/redis.report.md) <br/>
+   요구사항에 맞는 비관적락, 낙관적락을 구현했고 도메인 특성상 성능의 한계가 있었습니다. Redis 작업을 추가로 최적화 작업을 진행했습니다. Sorted set + Hash 작업으로 전환 **(처리율 50% 향상)**
+
+4. **k6를 활용해 실제 서비스와 유사한 트래픽 환경을 구성하여 테스트를 진행**  
+   대기열 구현 시, 쿠키를 이용해 토큰을 내려주는 방식과 Redis의 인메모리 데이터를 활용한 최적화 전략을 비교하기 위해 [k6 모의 테스트](https://github.com/JuGeonjeong/hhp-concert/blob/main/doc/report/k6.test.md)를 진행했습니다. 실전과 유사하게 **점진적으로 트래픽을 증가시키며** 테스트한 결과, **안정성을 높이고 불안 요소를 효과적으로 줄일 수 있었습니다.**
 
 <br/>
 
